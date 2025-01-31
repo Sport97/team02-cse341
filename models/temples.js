@@ -1,13 +1,13 @@
 module.exports = (mongoose) => {
   const Temple = mongoose.model(
-    'temples',
+    "temples",
     mongoose.Schema(
       {
         temple_id: Number,
         name: String,
         location: String,
         dedicated: String,
-        additionalInfo: Boolean,
+        additionalInfo: Boolean
       },
       { timestamps: true }
     )
